@@ -1,0 +1,52 @@
+body{
+    background-color: black;
+}
+
+#clockContainer{
+    height: 20vw;
+    width: 20vw;
+    position: relative;
+    margin: auto;
+    background: url(clock.png) no-repeat;
+    background-size: 100%;
+    
+}
+#Hours , #Mins , #Secs{
+    position: absolute;
+    background-color: black;
+    transform-origin: bottom;
+    
+
+}
+#Secs{
+    height: 32.5%;
+    width: 1%;
+    border-radius: 40px;
+    top: 17.5%;
+    left: 49.25%;
+    background-color: red;
+
+    
+  
+
+   
+}
+#Mins{
+    height: 30%;
+    width: 2%;
+    border-radius: 20px;
+    top: 20%;
+    left:  49%;
+    background-color:black;
+}
+#Hours{
+    height:25%;
+    width: 2.5%;
+    border-radius: 20px;
+    top: 25.5%;
+    left: 49.5%;
+
+
+   
+    
+}
